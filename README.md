@@ -2,6 +2,7 @@
 Module 6 - Python Modules and APIs
 - NumPy
 - Citipy
+- gmaps
 - Openweathermap.org current weather API
 - Google places and directions APIs
 ## Overview
