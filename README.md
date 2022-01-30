@@ -11,7 +11,7 @@ World_Weather_Analysis uses the NumPy module to generate 2000 random latitudes a
 
 The OpenWeatherMap API is used to request current weather for those randomly generated cities.   (https://openweathermap.org/current)
 
-The JSON from the openweathermap/current endpoint is parsed to create a Pandas DataFrame combining weather information with city data.  This data is saved and exported to /Weather_Database/WeatherPy_Database.csv
+The JSON from the openweathermap/current endpoint is parsed to create a Pandas DataFrame combining weather information with city data.  This data is saved and exported to [/Weather_Database/WeatherPy_Database.csv](/Weather_Database/WeatherPy_Database.csv)
 
 ### Vacation_Search
 In Vacation_Search.ipynb, the WeatherPy_Database.csv generated in Weather_Database is used as the data source.
@@ -22,7 +22,7 @@ A new Pandas DataFrame is created based on the temperature filter, containing on
 
 Finally a call to Google Places API is made to find the nearest hotel for these vacation cities.
 
-Any rows with null or empty strings are removed and a dataFrame of cities, city weather, and hotel name are saved and exported to /Vacation_search/WeatherPy_vacation.csv.   
+Any rows with null or empty strings are removed and a dataFrame of cities, city weather, and hotel name are saved and exported to [/Vacation_Search/WeatherPy_vacation.csv](/Vacation_Search/WeatherPy_vacation.csv)  
 
 A marker layer map is created with maps to display the cities and hotel information.
 ![CityMap](/Vacation_Search/WeatherPy_vacation_map.png)
