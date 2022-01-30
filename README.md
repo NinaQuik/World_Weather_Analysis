@@ -24,7 +24,7 @@ Finally a call to Google Places API is made to find the nearest hotel for these 
 
 Any rows with null or empty strings are removed and a dataFrame of cities, city weather, and hotel name are saved and exported to [/Vacation_Search/WeatherPy_vacation.csv](/Vacation_Search/WeatherPy_vacation.csv)  
 
-A marker layer map is created with maps to display the cities and hotel information.
+A marker layer map is created with gmaps to display the cities and hotel information.
 ![CityMap](/Vacation_Search/WeatherPy_vacation_map.png)
 
 ### Vacation_Itinerary 🇳🇿
